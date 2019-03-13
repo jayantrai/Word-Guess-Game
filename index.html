@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Word Guess Game</title>
 </head>
 <body>
     <header id ="masthead">
         <div class="container">
-        <h1>HANGMAN</h1>
+            <h1>HANGMAN</h1>
         </div>
-        <div class="sub-container"></div>
-        <h1>80's Style</h1>
-
+        <div class="sub-container">
+            <h1>80's Style</h1>
+        </div>
     </header>
+
+    <div id="main-container" class="new-container">
+        <section class="main-section">
+            <img src="assets/images/guns-n-roses.jpg" class="guns-and-roses" alt="gnr">
+        </section>
+    </div>
     
+    <div id="play-container" class="play">
+        <aside class="aside-container">
+            <div class="heading-container">PRESS ANY KET TO GET STARTED!</div>
+                <div class="wins">WINS</div>
+                    <div class="empty-container"></div>
+            <div class="current-word">CURRENT WORD</div>  
+                <div id="blanks" class="fill"> _ _ _ _ _ _ _</div>  
+            <div class="guesses-remaining">NUMBER OF GUESSES REMAINING</div>
+                <div id="-box"></div>
+            <div class="letters-guessed">LETTERS ALREADY GUESSED</div>
+                <div class="guessed-box"></div>
+        </aside>
+    </div>
 </body>
 </html>
