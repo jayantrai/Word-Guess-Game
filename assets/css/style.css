@@ -1,3 +1,100 @@
-html {
+* {
     background-color: black;
+    font-family: sans-serif;
+    color: azure;
+    
 }
+
+#whole {
+    width: 700px;
+    margin: auto;
+}
+
+#main-container {
+
+    width: 344px;
+    height:700px;
+    float: left;
+    border-color: white;
+    border-style: dotted;
+    
+}
+
+
+.guns-and-roses {
+    width: 250px;
+    height: 230px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+/*aside container*/ 
+
+#play-container {
+    width: 344px;
+    height:700px;
+    float: right;
+    border-color: white;
+    border-style: dotted;
+    
+    
+}
+
+.aside-container {
+    width: 200px;
+    height: 450px;
+    padding-top: 20px;
+   
+}
+
+.heading-container {
+    text-align: center;
+    width: 344px;
+    padding-top: 20px;
+}
+
+.wins {
+    width: 344px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.current-word {
+    width: 344px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fill {
+    width: 344px;
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 25px;
+}
+
+
+/*footer*/
+
+.bottom-container {
+    text-align: center;
+}
+
+.guesses-remaining {
+    width: 344px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box {
+    width: 344px;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+}
+
+.letters-guessed {
+    width: 344px;
+    text-align: center;
+    padding-top: 20px;
+}
+
